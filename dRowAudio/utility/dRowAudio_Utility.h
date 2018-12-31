@@ -59,7 +59,7 @@ inline static File getResourcesFolder()
  */
 inline static String stripFileProtocolForLocal (const String& pathToStrip)
 {
-	if (pathToStrip.startsWith ("file://localhost"))
+	if (pathToStrip.startsWith ("file://"))
 	{
        #if JUCE_WINDOWS
 		String temp (pathToStrip.substring (pathToStrip.indexOf (7, "/") + 1));
