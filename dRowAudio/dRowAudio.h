@@ -195,7 +195,7 @@
     this is enabled.
  */
 #ifndef DROWAUDIO_USE_CURL
- #define DROWAUDIO_USE_CURL 1
+ #define DROWAUDIO_USE_CURL 0
 #endif
 
 //=============================================================================
